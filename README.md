@@ -3,19 +3,20 @@ load datasets from [Hugging Face](https://huggingface.co/) and [Opus](https://op
 
 ## Run scripts
 
-poetry install
+    poetry install
 
-cd load_datasets
+    cd load_datasets
 
--- Download dataset from huggingface for opus100 model, el, en languages and generate a file
+Download dataset from huggingface for opus100 model, el, en languages and generate a file
 with 500 sentences
 
-poetry run python huggingface_main.py opus100 el en 0 500
+    poetry run python huggingface_main.py opus100 el en 0 500
 
-- Download dataset from opus
-poetry run python opus_main.py GlobalVoices en el
+Download dataset from opus
 
-- Create a sample from generated files
+    poetry run python opus_main.py GlobalVoices en el
 
-poetry run pythonsample.py en el 500
+Create a sample from generated files
+
+    poetry run pythonsample.py en el 500
 
