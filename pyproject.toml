@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "load-datasets"
+version = "0.1.0"
+description = ""
+authors = ["Foteini Giouleka <foteini@transifex.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+datasets = "^2.19.1"
+opustools = "^1.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
